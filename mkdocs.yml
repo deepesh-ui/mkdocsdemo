@@ -2,7 +2,7 @@ site_name: 'python-pipeline-samples'
 
 nav:
   - Home: sso-login.md
-  - HomeOne: index.md
+  - HomeOne: '!import https://github.com/backstage/mkdocs-monorepo-plugin?branch=master&docs_dir=sample-docs/v1/docs/*'
   
 plugins:
   - techdocs-core
