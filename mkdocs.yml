@@ -1,0 +1,8 @@
+site_name: 'python-pipeline-samples'
+
+nav:
+  - Home: sso-login.md
+  - HomeOne: index.md
+  
+plugins:
+  - techdocs-core
