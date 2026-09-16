@@ -1,8 +1,13 @@
-site_name: 'python-pipeline-samples'
+site_name: mkdocsdemo
+site_description: Hub that imports other repos at TechDocs build time
 
 nav:
-  - Home: sso-login.md
-  - HomeOne: index.md
-  
+  - Home: index.md
+  - SSO login: sso-login.md
+  - Cats API v1: '!import https://github.com/backstage/mkdocs-monorepo-plugin?branch=master&docs_dir=sample-docs/v1/docs/*'
+  - Cats API v2: '!import https://github.com/backstage/mkdocs-monorepo-plugin?branch=master&docs_dir=sample-docs/v2/docs/*'
+
 plugins:
   - techdocs-core
+  - multirepo:
+      cleanup: true  
