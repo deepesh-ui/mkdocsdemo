@@ -1,29 +1,11 @@
-# SSO extra click
+# Jane example
 
-Use this page as the deep-link target.
+Clicking this while already in IDP does **nothing** to your session:
 
-Jane is logged into **Microsoft**. She is **not** logged into **Harness**.
+https://qa.harness.io/ng/account/zEaak-FLS425IEO7OLzMUg/module/idp/docs/account/Component/deepeshtestdocslinks/sso-login/
 
-## Today
+That is still Harness. Cookies stay.
 
-1. Open this page while signed out of Harness
-2. Login page appears
-3. Click **Sign in with SSO**
-4. Microsoft lets her in with no password
-5. This page loads
+Open from **AppHarness** instead 
 
-## Wanted
-
-1. Open this page
-2. Microsoft lets her in with no password
-3. This page loads
-
-No login page. No button.
-
-## Cases
-
-| Situation | What happens |
-|---|---|
-| Already logged into Harness | Docs open. No login. |
-| Microsoft yes, Harness no | Login page + SSO button |
-| Logged out of both | Login page, then real Microsoft login |
+https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/module/ai-agents/orgs/default/projects/IDP_UI/worker-agents
