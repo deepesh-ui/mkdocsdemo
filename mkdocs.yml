@@ -3,7 +3,7 @@ site_name: mkdocsdemo
 nav:
   - Home: sso-login.md
   - HomeOne: index.md
-  - Cats API v1: '!import https://github.com/deepesh-ui/mkdocschildrepo/'
+  - Payments: '!import https://github.com/deepesh-ui/mkdocschildrepo?branch=main'
 
 plugins:
   - techdocs-core
